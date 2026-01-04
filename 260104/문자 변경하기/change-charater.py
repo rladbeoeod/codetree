@@ -1,2 +1,2 @@
-a = T
-print(t)
+a = "T"
+print(a)
