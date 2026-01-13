@@ -1,5 +1,5 @@
 a,b,c = map(int,input().split())
 
-print(18)
-print(6)
-print(12)
+print(a+b+c)
+print(c+1)
+print(a+b-1)
