@@ -13,4 +13,4 @@ elif a >= 60:
     print("D")
 
 else :
-    print("D")
+    print("E")
