@@ -5,3 +5,6 @@ if Y % 4 == 0:
         print("false")
     else:
         print("true")
+
+else:
+    print("false")
