@@ -8,7 +8,7 @@ elif B<A<C:
     print(A)
 elif B<C<A:
     print(C)
-elif C<A<b:
+elif C<A<B:
     print (A)
 else:
     print(B)
