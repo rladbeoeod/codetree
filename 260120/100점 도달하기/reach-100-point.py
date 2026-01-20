@@ -1,34 +1,13 @@
-a = int(input())
+N = int(input())
 
-
-if a>= 90:
-    while a != 101:
-        print("A",end=" ")
-        a += 1
-
-elif a>= 80:
-    while a != 101:
-        print("B",end=" ")
-        a += 1
-
-        if a>= 90:
-            while a != 101:
-                print("A",end=" ")
-                a += 1
-
-elif a>= 70:
-    while a != 100:
-        print("C")
-        a += 1
-
-
-elif a>= 60:
-    while a != 100:
-        print("D")
-        a += 1
-
-
-else:
-    while a != 100:
-        print("F")
-        a += 1
+for score in range(N, 101):
+    if score >= 90:
+        print("A", end=" ")
+    elif score >= 80:
+        print("B", end=" ")
+    elif score >= 70:
+        print("C", end=" ")
+    elif score >= 60:
+        print("D", end=" ")
+    else:
+        print("F", end=" ")
